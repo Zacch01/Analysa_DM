@@ -17,7 +17,6 @@ while flag:
     arbitraryNum = arbitraryNum / 2
     if arbitraryNum == 0:
         flag = False
-
 print(f'Your Epsilon Is --> {ourEpsilon}\n')
 
 
