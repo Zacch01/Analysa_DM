@@ -1,4 +1,4 @@
-# Author : Nitzan Tomer & Zaccharie Atias.
+# Author : Nitzan Tomer & Zaccharie Attias.
 # Assignment Number One
 
 
