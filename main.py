@@ -1,26 +1,32 @@
+# Author : Nitzan Tomer & Zaccharie Atias.
+# Assignment Number One
 
-print("\nQuestion 2:")
-integer = 1
-numLoops = 0
+
+# Question Two Variables
+ourEpsilon = 0
+arbitraryNum = 1
+loopsNum = 0
 flag = True
-print("(0) ", end="")
+
+# Question Two Function Solution
+print("[Question Two]")
 while flag:
-    numLoops = numLoops + 1
-    print(("{0} \n({1}) {0} / 2 = ".format(integer, numLoops)), end="")
-    smallestNumber = integer
-    integer = integer / 2
-    if integer == 0:
+    print(f'({loopsNum}) {arbitraryNum} \ 2 = {arbitraryNum / 2}')
+    loopsNum = loopsNum + 1
+    ourEpsilon = arbitraryNum
+    arbitraryNum = arbitraryNum / 2
+    if arbitraryNum == 0:
         flag = False
-        print('  0')
 
-print("Epsilon is --> {}".format(smallestNumber))
-
-
-print("\nQuestion 3:")
-print("The original calculation:")
-print((abs(3.0 * (4.0 / 3.0 - 1) - 1)))
+print(f'Your Epsilon Is --> {ourEpsilon}\n')
 
 
-print("\nQuestion 4:")
-print("The fixed calculation:")
-print("abs(round(3.0*(4.0/3.0-1)-1)) = " + str(abs(round(3.0 * (4.0 / 3.0 - 1) - 1))))
+# Question Three Solution
+print("[Question Three]")
+print("The Original Calculation --> " + str(abs(3.0 * (4.0 / 3.0 - 1) - 1)) + "\n")
+
+
+# Question Four Solution
+print("[Question Four]")
+print("The Fixed Equation --> abs(round(3.0*(4.0/3.0-1)-1))")
+print("The Fixed Solution --> " + str(abs(round(3.0 * (4.0 / 3.0 - 1) - 1))))
